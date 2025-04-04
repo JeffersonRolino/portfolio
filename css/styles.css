@@ -204,6 +204,16 @@ Navbar
     justify-self: end;
 }
 
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--clr-white);
+    z-index: 2;
+    box-shadow: var(--light-shadow);
+}
+
 @media screen and (min-width: 768px) {
     .nav {
         background: var(--clr-primary-10);
@@ -317,6 +327,10 @@ Hero
 ===============
 */
 /* underline added to globals */
+.hero {
+    background: rebeccapurple;
+    min-height: 200vh;
+}
 
 /*
 =============== 
