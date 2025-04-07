@@ -179,6 +179,10 @@ p {
     text-align: center;
 }
 
+.bg-grey {
+    background: var(--clr-grey-10);
+}
+
 /*
 =============== 
 Navbar
@@ -447,7 +451,41 @@ Services
 ===============
 */
 /* small screen layout setup */
-/* bg-grey in globals */
+.service {
+    background: var(--clr-white);
+    padding: 3rem 1.5rem;
+    margin-bottom: 2rem;
+    border: var(--radius);
+    text-align: center;
+    transition: var(--transition);
+}
+
+.service:hover {
+    background: var(--clr-primary-5);
+}
+
+.service-icon {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.service .underline {
+    width: 3rem;
+    height: 0.15rem;
+    transition: var(--transition);
+}
+
+.service:hover .underline {
+    background: var(--clr-grey-2);
+}
+
+.service p {
+    transform: var(--transition);
+}
+
+.service:hover p {
+    color: var(--clr-grey-2);
+}
 
 /*
 =============== 
